@@ -1,0 +1,18 @@
+h1 {
+          text-align: center;
+          text-decoration: red wavy underline;
+          letter-spacing:normal;
+          font-family: arial;
+}
+p{
+          font-weigt:bold;
+          line-height: normal;
+          font-size: 10;
+
+}
+h3 {
+          text-decoration: line-through;
+}
+h2 {
+          text-decoration: overline;
+}
