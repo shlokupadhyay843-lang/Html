@@ -91,3 +91,27 @@ input[type="radio"]:checked + label{
 .post:nth-of-type(2) {
           background-color:blanchedalmond;
 }
+
+/* Pseudo Elements */
+/* first-letter */
+h1::first-letter  {
+color:black;
+}
+/* first line */
+p::first-line {
+    color:purple;
+}
+/* Selection  */
+p::selection {
+    background-color:rgb(199,192,58);
+}
+
+/* cascading property */
+
+h3 {
+    background-color:blue;
+}
+
+h3 {
+    background-color:yellow;
+}
